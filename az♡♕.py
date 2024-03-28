@@ -177,7 +177,7 @@ print('\n')
 #token1='6995174911:AAHYKvAuZNU08vc9uNPnHcYO0ev9cNfLMEE'
 token = input(''' 
    \x1b[38;5;117m{\x1b[1;32m𓅇 \x1b[38;5;117m}  \x1b[38;5;190mT̶O̶K̶E̶N̶  \x1b[1;38;5;141m જ⁀➴   \x1b[38;5;130m''')
-print(('\033[92m—'*25)+'\n azoz @C_5AA\n'+('—'*25))
+print(('\033[92m—'*25)+'\n azozz @C_5AA\n'+('—'*25))
 print('\x1b[38;5;117m')
 ID1='6431416203'
 print(a32+'--'*25)
